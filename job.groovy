@@ -1,7 +1,7 @@
 pipeline {
     /* Ваши инструкции для конвейера */
 
-    agent {label "test_unit" }
+    agent {label "мастер" }
 
     stages {
 
