@@ -8,21 +8,21 @@ pipeline {
         stage('Build') {
             steps {script {
                 sleep 15
-                echo "Приложение успешно собралось"
+                echo "Application succesfully builded"
             }}
         }
 
         stage('Tests') {
             steps {script {
                 sleep 15
-                echo "Тесты прошли успешно"
+                echo "Test run succesfully"
             }}
         }
 
         stage('Deploy') {
             steps {script {
                 sleep 15
-                echo "Приложение развернулось на серверах"
+                echo "Application deployed into servers"
             }}
         }
     }
