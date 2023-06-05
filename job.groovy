@@ -7,7 +7,7 @@ pipeline {
 
         stage('Build') {
             steps {script {
-                sleep 15
+                sleep 38
                 echo "Application succesfully builded"
             }}
         }
@@ -21,7 +21,7 @@ pipeline {
 
         stage('Deploy') {
             steps {script {
-                sleep 15
+                sleep 53
                 echo "Application deployed into servers"
             }}
         }
